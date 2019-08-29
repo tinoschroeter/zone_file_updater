@@ -1,0 +1,15 @@
+@                  1800  IN  SOA ns1.example.com. mailbox.example.com. (
+                                                2019082902   ; Seriennummer
+                                                300          ; Refresh Time
+                                                100          ; Retry Time
+                                                6000         ; Expire Time
+                                                600          ; negative Caching Zeit
+                                               )
+@                  1800  IN  NS     ns1.example.com.
+@                  1800  IN  A      1.2.3.4
+@                  1800  IN  AAAA   2001:db8::1:2:3:4
+alias.example.com. 1800  IN  CNAME  @
+ns1.example.com.   1800  IN  A      172.27.182.17
+ns1.example.com.   1800  IN  AAAA   2001:db8::53
+www.example.com.   1800  IN  A      192.168.1.2
+www.example.com.   1800  IN  AAAA   fd00::1:2
