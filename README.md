@@ -6,5 +6,4 @@
 
 This script will generate DNS serial number for Bind
 
-
-
+The out put looks like this: 2019082901 or in case this ist already set: 2019082902 and so on.
