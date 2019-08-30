@@ -1,5 +1,5 @@
 @                  1800  IN  SOA ns1.example.com. mailbox.example.com. (
-                                                2019082902   ; Seriennummer
+                                                2019083001   ; Seriennummer
                                                 300          ; Refresh Time
                                                 100          ; Retry Time
                                                 6000         ; Expire Time
@@ -13,3 +13,4 @@ ns1.example.com.   1800  IN  A      172.27.182.17
 ns1.example.com.   1800  IN  AAAA   2001:db8::53
 www.example.com.   1800  IN  A      192.168.1.2
 www.example.com.   1800  IN  AAAA   fd00::1:2
+www                60    IN  CNAME  g2.shared.global.fastly.net.
