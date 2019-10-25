@@ -1,7 +1,7 @@
 #!/bin/bash
-set -x
+
 zone_file="zones/bashops.sh.dns"
-now_set_to=$(grep '20[1-9][1-9][0-1][1-9][1-9][0-9][0-9][0-9]' $zone_file|awk '{print $1}')
+now_set_to=$(grep '20[1-9][1-9][0-1][0-9][1-9][0-9][0-9][0-9]' $zone_file|awk '{print $1}')
 date_now=$(date +%Y%m%d)
 
 if [ -z $now_set_to ];then
